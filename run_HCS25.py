@@ -1,0 +1,14 @@
+name: Run Python Script
+on:
+  push:
+    branches:
+      - main
+jobs:
+  run-python-script:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - run: python HCS25.py
