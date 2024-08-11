@@ -1,5 +1,7 @@
 import re
 import graphviz
+' created with assistance of Chat GPT
+' Inspired by depict and uses a similar input format
 
 def parse_hcs(input_text):
     entities = set()
