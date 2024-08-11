@@ -27,4 +27,10 @@ jobs:
           pip install -r requirements.txt
       
       - name: Run Python script
-        run: python hcs25.py
+        run: python hcs25.py > output.txt
+      
+      - name: Upload output as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: hcs25-output
+          path: hcs25-output.txt
