@@ -11,4 +11,4 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: 3.8
-      - run: python HCS25.py
+      - run: python hcs25.py
