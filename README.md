@@ -11,6 +11,7 @@ Hyphenated words without spaces (e.g., warm-food) are treated as single entities
 Actions Parsing:
 
 Actions are recognized as text after a colon (:) and are associated with the entities mentioned before the colon.
+
 Feedback Parsing:
 
 Feedback is recognized as text following a slash (/) and is associated with the entities in reverse order.
