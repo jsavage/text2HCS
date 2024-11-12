@@ -36,4 +36,4 @@ jobs:
           sudo apt-get install -y python3-tk  # Installs Tkinter
 
       - name: Run Python script
-        run: python hcs34-js2.py
+        run: python hcs34-js2ci.py
