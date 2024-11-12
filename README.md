@@ -1,5 +1,7 @@
 # text2HCS
 Drawing a Hierarchical Control Structure from constrained text.
+![image](https://github.com/user-attachments/assets/ef5a9e4f-19c3-4296-afd3-c084e08d4ed0)
+
 
 Entities Parsing:
 
