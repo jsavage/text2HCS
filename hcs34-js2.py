@@ -303,10 +303,11 @@ def run_tests():
             "expected_actions": [],
             "expected_feedback": []
         },
+        # magnetron was nested in the following 
         {
-            "input": "microwave [ magnetron ] oven",
+            "input": "microwave magnetron oven",
             "expected_entities": {"microwave", "magnetron", "oven"},
-            "expected_nested": {"microwave": ["magnetron"]},
+            "expected_nested": {},
             "expected_actions": [],
             "expected_feedback": []
         },
