@@ -27,10 +27,10 @@ jobs:
           pip install -r requirements.txt
       
       - name: Run Python script
-        run: python hcs25.py > output.txt
+        run: python hcs34-js2.py > output.txt
       
       - name: Upload output as artifact
         uses: actions/upload-artifact@v3
         with:
-          name: hcs25-output
-          path: hcs25-output.txt
+          name: hcs34-js2-output
+          path: hcs34-js2-output.txt
