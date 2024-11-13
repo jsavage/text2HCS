@@ -35,5 +35,8 @@ jobs:
           sudo apt-get install -y graphviz  # Installs the system-level Graphviz binaries
           sudo apt-get install -y python3-tk  # Installs Tkinter
 
+      - name: Set Env Var for CI
+        
+
       - name: Run Python script
         run: python hcs34-js2ci.py
