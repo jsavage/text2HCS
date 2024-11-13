@@ -41,4 +41,4 @@ jobs:
            echo $CI
 
       - name: Run Python script
-        run: python hcs34-js2ci.py
+        run: python hcs34-js2_ci.py
