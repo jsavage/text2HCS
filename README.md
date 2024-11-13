@@ -1,5 +1,7 @@
 # text2HCS
-Drawing a Hierarchical Control Structure from constrained text.
+The purpose of this python app is to automatically create a Hierarchical Control Structure from a description written using constrained text.
+This work is inspired by https://mstone.info/depict/.   
+
 ![image](https://github.com/user-attachments/assets/13f7a290-102f-43d1-8b4f-ad6b5510cb1e)
 ![image](https://github.com/user-attachments/assets/681cf206-da9a-4f04-9536-d99033d16a87)
 
