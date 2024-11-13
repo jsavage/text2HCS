@@ -36,7 +36,9 @@ jobs:
           sudo apt-get install -y python3-tk  # Installs Tkinter
 
       - name: Set Env Var for CI
-        
+        run: 
+           export CI=true
+           echo $CI
 
       - name: Run Python script
         run: python hcs34-js2ci.py
