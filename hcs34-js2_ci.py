@@ -1,7 +1,9 @@
 import re
+import os
 import graphviz
 import tkinter as tk 
 #import subprocess
+is_ci = os.getenv('CI') == 'true' # Used to determine whether this code is being run in a CI environment
 
 def parse_hcs(input_text):
     entities = set()
